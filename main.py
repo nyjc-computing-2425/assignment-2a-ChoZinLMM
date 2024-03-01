@@ -1,7 +1,6 @@
 num = input('Enter a number (decimal or integer): ')
-# type your code here
-
-
-
-# do not change any code beyond this point
+num = num.strip()
+num2 = num.replace('.', '')
+num3 = num2.lstrip('0')
+sf = len(num3)
 print('The number', num, 'has', sf, 'significant figures.')
